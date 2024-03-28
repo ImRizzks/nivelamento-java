@@ -1,0 +1,17 @@
+public class Main {
+	public static void main(String[] args) {
+		
+			String amor = "Eu amo a soraya";
+			String[] vect = amor.split(" ");
+			
+			String vect00 = vect[0].toUpperCase();
+			String vect01 = vect[1].toUpperCase();
+			String vect02 = vect[2].toUpperCase();
+			String vect03 = vect[3].toUpperCase();
+			
+			System.out.println(vect00);
+			System.out.println(vect01);
+			System.out.println(vect02);
+			System.out.println(vect03);
+	}		
+}	
